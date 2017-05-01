@@ -4,7 +4,7 @@ What is the largest prime factor of the number 600851475143 ?
 
 __Answer: 6857
 
-__Solution: divide the given number by an increasing number start from 2. Each
+__My Solution: divide the given number by an increasing number start from 2. Each
 time the division's remainder is not 0, skip and increase the divisor by 1. When
 the divident equal 1, stop, the value of the divisor is the largest prime factor 
 now.

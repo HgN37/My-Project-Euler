@@ -6,7 +6,7 @@ numbers from 1 to 20?
 
 __Answer: 232792560
 
-__Solution: I don't think you need to use computer to solve that question.
+__My Solution: I don't think you need to use computer to solve that question.
 Just make a product of the largest multiples(<20) of each prime(<20).
 2 => 20
 3 => 18

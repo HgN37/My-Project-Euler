@@ -1,7 +1,7 @@
 /* main.c
  * Main source file to solve Project Euler's problem 3
  * Author: HgN
- * Day: May 29th, 2017
+ * Day: April 29th, 2017
  */
 
 #include <inttypes.h>

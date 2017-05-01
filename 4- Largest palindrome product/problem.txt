@@ -4,7 +4,7 @@ Find the largest palindrome made from the product of two 3-digit numbers.
 
 __Answer: 906609
 
-__Solution: BRUTE FORCE >.<
+__My Solution: BRUTE FORCE >.<
 Find all products, check if it's palindrome, check if it's max.
 
 __By the way: 906609 = 993 * 913

@@ -1,7 +1,7 @@
 /* main.c
  * Main source file to solve Project Euler's problem 2
  * Author: HgN
- * Day: May 28st, 2017
+ * Day: April 28th, 2017
  */
 
 #include <stdbool.h>
