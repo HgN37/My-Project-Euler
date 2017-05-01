@@ -1,5 +1,5 @@
 /* main.c
- * Main source file to solve Project Euler's problem 2
+ * Main source file to solve Project Euler's problem 3
  * Author: HgN
  * Day: May 29th, 2017
  */
