@@ -1,4 +1,5 @@
-__Problem: Sum square difference
+# **Sum square difference**
+## Problem:
 The sum of the squares of the first ten natural numbers is,
 
 1^2 + 2^2 + ... + 10^2 = 385
@@ -9,6 +10,15 @@ Hence the difference between the sum of the squares of the first ten natural num
 
 Find the difference between the sum of the squares of the first one hundred natural numbers and the square of the sum.
 
-__Answer: 25164150
+## Answer:
+25164150
 
-__My solution: BRUTE FORCE >.< Just canculate it and find the difference.
+## My solution: 
+***BRUTE FORCE >.<***
+
+Just canculate it and find the difference.
+
+***Better solution***
+
+- (1+2+3+...+n) = n(n+1)/2
+- (1^2 + 2^2 + ... + n^2) = n(n+1)(2n+1)/6 

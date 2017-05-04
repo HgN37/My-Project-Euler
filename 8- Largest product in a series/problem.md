@@ -1,4 +1,5 @@
-__Problem: Largest product in a series
+# **Largest product in a series**
+## Problem:
 The four adjacent digits in the 1000-digit number that have the greatest product 
 are 9 × 9 × 8 × 9 = 5832.
 
@@ -27,19 +28,26 @@ Find the thirteen adjacent digits in the 1000-digit number that have the
 greatest product. 
 What is the value of this product?
 
-__Answer: 23514624000
+## Answer:
+23514624000
 
-__My Solution: Limit the multiplication.
-First, eliminate all thirteen adjacent digits which include 0. Don't canculate
+## My Solution:
+***Limit the multiplication***
+
+Firstly, eliminate all thirteen adjacent digits which include 0. Don't canculate
 those number. A multiplication take lots of time to excute. Everytime you find
 a zero, you can skip all the number between current position and that zero.
-Ex: Now you at index 0, you search to index 12, no zero, canculate the product.
+
+*Ex*: Now you at index 0, you search to index 12, no zero, canculate the product.
 Then move to index 1, search to index 13, and you find a zero at index 10, you
 can immediately move to index 10 and search to index 22.
+
 I saved the 1000-digits number to a text file so my code can read from it to get
 the digits.
 Be careful with int types and the cast!
 
-__By the way: thirteen adjacent digits start from 197th digits make this largest
+## By the way: 
+thirteen adjacent digits start from 197th digits make this largest
 product
-5 5 7 6 6 8 9 6 6 4 8 9 5
+
+5 x 5 x 7 x 6 x 6 x 8 x 9 x 6 x 6 x 4 x 8 x 9 x 5
